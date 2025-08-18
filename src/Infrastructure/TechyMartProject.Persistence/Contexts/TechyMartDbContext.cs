@@ -1,0 +1,30 @@
+﻿using System.Reflection;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using TechyMartProject.Domain.Entities;
+
+namespace TechyMartProject.Persistence.Contexts;
+
+public class TechyMartDbContext:IdentityDbContext<AppUser>
+{
+    public DbSet<AppUser> AppUsers { get; set; }
+    public TechyMartDbContext(DbContextOptions<TechyMartDbContext> option):base(option)
+    {
+
+
+       
+    }
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        base.OnModelCreating(builder);
+        builder.Entity<AppUser>(entity =>
+        {
+            entity.Property(e => e.Fullname).IsRequired().HasMaxLength(50);
+          
+        });
+
+    }
+    
+}

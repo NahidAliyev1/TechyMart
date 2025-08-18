@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Infrastructure.deps.json
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Infrastructure.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Infrastructure.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Application.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Domain.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Application.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Domain.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMar.3247442A.Up2Date
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\refint\TechyMartProject.Infrastructure.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\ref\TechyMartProject.Infrastructure.dll

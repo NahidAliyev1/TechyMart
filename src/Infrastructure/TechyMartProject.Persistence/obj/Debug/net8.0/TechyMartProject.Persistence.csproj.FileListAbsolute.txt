@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Persistence.deps.json
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Persistence.runtimeconfig.json
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Persistence.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Persistence.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Domain.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\bin\Debug\net8.0\TechyMartProject.Domain.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.AssemblyInfo.cs
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMar.39BEE540.Up2Date
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\refint\TechyMartProject.Persistence.dll
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.pdb
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\TechyMartProject.Persistence.genruntimeconfig.cache
+C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Infrastructure\TechyMartProject.Persistence\obj\Debug\net8.0\ref\TechyMartProject.Persistence.dll
