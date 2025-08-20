@@ -10,3 +10,16 @@ C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Core\TechyMartProject.Domain\
 C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\refint\TechyMartProject.Domain.dll
 C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.pdb
 C:\Users\User\Desktop\Zeducat\TechyMartProject\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\ref\TechyMartProject.Domain.dll
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\bin\Debug\net8.0\TechyMartProject.Domain.deps.json
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\bin\Debug\net8.0\TechyMartProject.Domain.dll
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\bin\Debug\net8.0\TechyMartProject.Domain.pdb
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.sourcelink.json
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.dll
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\refint\TechyMartProject.Domain.dll
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\TechyMartProject.Domain.pdb
+C:\Users\user\Desktop\TechyMart\src\Core\TechyMartProject.Domain\obj\Debug\net8.0\ref\TechyMartProject.Domain.dll
