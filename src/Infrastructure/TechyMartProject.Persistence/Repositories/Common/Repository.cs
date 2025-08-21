@@ -25,7 +25,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
     public async Task<T> CreateAsync(T entity)  
     {
        _dbSet.Add(entity);
-        return _techyMartDbContext.SavedChanges();
+         _techyMartDbContext.SaveChanges();
         return entity;
     }
 
@@ -35,24 +35,55 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
         _techyMartDbContext.SaveChanges();
     }
 
-    public Task<T?> FindAsync(Expression<Func<T, bool>> predicate, params string[] includes)
+    public async Task<T?> FindAsync(Expression<Func<T, bool>> predicate, params string[] includes)
     {
-        throw new NotImplementedException();
+        IQueryable<T> query = _dbSet;
+
+        // Əgər navigation property-lər varsa, include edirik
+        foreach (var include in includes)
+        {
+            query = query.Include(include);
+        }
+
+        return await query.FirstOrDefaultAsync(predicate);
     }
 
-    public Task<T?> FindByIdAsync(int id, params string[] includes)
+    public async Task<T?> FindByIdAsync(int id, params string[] includes)
     {
-        throw new NotImplementedException();
+        IQueryable<T> query = _dbSet;
+
+        foreach (var include in includes)
+        {
+            query = query.Include(include);
+        }
+
+        return await query.FirstOrDefaultAsync(x => x.Id == id); ;
     }
 
     public IQueryable<T>? GetAll(Expression<Func<T, bool>>? expression = null, params string[] includes)
     {
-       
-        return _techyMartDbContext.Set<T>().AsQueryable();
+
+        IQueryable<T> query = _dbSet;
+
+        // Navigation property-lər varsa əlavə edirik
+        foreach (var include in includes)
+        {
+            query = query.Include(include);
+        }
+
+        // Filter varsa tətbiq edirik
+        if (expression != null)
+        {
+            query = query.Where(expression);
+        }
+
+        return query;
     }
 
     public T Update(T entity)
     {
-        throw new NotImplementedException();
+        _dbSet.Update(entity);   // Entity update edilir
+        _techyMartDbContext.SaveChanges(); // Dəyişikliklər DB-yə tətbiq olunur
+        return entity;
     }
 }

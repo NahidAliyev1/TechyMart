@@ -25,6 +25,7 @@ namespace TechyMartProject.API
             builder.Services.AddSwaggerGen();
            builder.Services.AddScoped <IAuthService,AuthService>();
             builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+            builder.Services.AddScoped<IProductService,ProductService>();
 
             builder.Services.AddAuthentication("Bearer")
                 .AddJwtBearer(options =>

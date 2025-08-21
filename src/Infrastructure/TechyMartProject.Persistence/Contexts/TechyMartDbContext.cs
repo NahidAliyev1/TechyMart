@@ -9,6 +9,7 @@ namespace TechyMartProject.Persistence.Contexts;
 public class TechyMartDbContext:IdentityDbContext<AppUser>
 {
     public DbSet<AppUser> AppUsers { get; set; }
+    public DbSet<Product> Products { get; set; }
     public TechyMartDbContext(DbContextOptions<TechyMartDbContext> option):base(option)
     {
 
