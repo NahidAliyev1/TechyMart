@@ -1,6 +1,4 @@
-﻿using System.Data;
-using FluentValidation;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿
 
 namespace TechyMartProject.Application.DTOs.ProductDTO;
 

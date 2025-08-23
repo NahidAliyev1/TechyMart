@@ -1,4 +1,4 @@
-﻿using FluentValidation;
+﻿
 
 namespace TechyMartProject.Application.DTOs.ProductDTO;
 public class CreateProductDto

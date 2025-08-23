@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using TechyMartProject.Domain.Entities.Common;
+﻿
 
 namespace TechyMartProject.Domain.Interfaces.Repositories.Common;
 public interface IRepository<T> where T : BaseEntity,new()

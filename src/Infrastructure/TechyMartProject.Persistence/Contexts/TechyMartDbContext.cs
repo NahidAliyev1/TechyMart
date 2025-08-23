@@ -18,6 +18,9 @@ public class TechyMartDbContext:IdentityDbContext<AppUser>
     public DbSet<AppUser> AppUsers { get; set; }
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
+    public DbSet<CartItem> CartItems { get; set; }
+    public DbSet<WishlistItem> WishlistItems { get; set; }
+    public DbSet<Whislist> Wishlists { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

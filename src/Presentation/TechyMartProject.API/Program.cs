@@ -12,6 +12,7 @@ using TechyMartProject.Persistence.Repositories.Common;
 using TechyMartProject.Domain.Interfaces.Repositories.Common;
 using TechyMartProject.Application.Profiles;
 using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TechyMartProject.API
 {
@@ -27,32 +28,21 @@ namespace TechyMartProject.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-           builder.Services.AddScoped <IAuthService,AuthService>();
-            builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
-            builder.Services.AddScoped<IProductService,ProductService>();
-            builder.Services.AddScoped<IRepository<Product>, Repository<Product>>();
-            builder.Services.AddScoped<IRepository<Category>, Repository<Category>>();
-            builder.Services.AddScoped<ICategoryService, CategoryService>();
+
+            builder.Services.AddPersistenceServices(builder.Configuration);
+
+            builder.Services.AddApplicationServices(builder.Configuration);
+            builder.Services.AddDomainServices(builder.Configuration);
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
 
 
-          
 
-            builder.Services.AddAuthentication("Bearer")
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
-                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                        ValidAudience = builder.Configuration["Jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(
-                            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-                    };
-                });
+
+
+
+
+
 
             builder.Services.AddSwaggerGen(c =>
             {
@@ -84,13 +74,9 @@ namespace TechyMartProject.API
             });
 
 
-            builder.Services.AddIdentity<AppUser, IdentityRole>()
-     .AddEntityFrameworkStores<TechyMartDbContext>()
-     .AddDefaultTokenProviders();
+      
 
-            string ? connectstr = builder.Configuration.GetConnectionString("Default");
-            builder.Services.AddDbContext<TechyMartDbContext>(options =>
-      options.UseSqlServer(connectstr));
+          
             
 
             

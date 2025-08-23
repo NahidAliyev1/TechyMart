@@ -1,9 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using TechyMartProject.Application.DTOs.ProductDTO;
-using TechyMartProject.Application.Services.Services;
-using TechyMartProject.Domain.Entities;
-using TechyMartProject.Domain.Interfaces.Repositories.Common;
+﻿
 
 namespace TechyMartProject.Application.Services.Implementations;
 public class ProductService : IProductService

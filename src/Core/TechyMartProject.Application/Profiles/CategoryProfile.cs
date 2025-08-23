@@ -1,10 +1,4 @@
-﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TechyMartProject.Application.DTOs.CategoryDTO;
+﻿
 
 namespace TechyMartProject.Application.Profiles
 {

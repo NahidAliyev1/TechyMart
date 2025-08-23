@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using TechyMartProject.Application.DTOs.ProductDTO;
-using TechyMartProject.Domain.Entities;
+﻿
 
 namespace TechyMartProject.Application.Profiles
 {

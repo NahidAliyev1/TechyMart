@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-
+﻿
 namespace TechyMartProject.Application.DTOs.CategoryDTO;
 
 public class UpdateCategoryDto
