@@ -8,6 +8,10 @@ using TechyMartProject.Domain.Entities;
 using TechyMartProject.Persistence.Contexts;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TechyMartProject.Persistence.Repositories.Common;
+using TechyMartProject.Domain.Interfaces.Repositories.Common;
+using TechyMartProject.Application.Profiles;
+using AutoMapper;
 
 namespace TechyMartProject.API
 {
@@ -26,6 +30,13 @@ namespace TechyMartProject.API
            builder.Services.AddScoped <IAuthService,AuthService>();
             builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
             builder.Services.AddScoped<IProductService,ProductService>();
+            builder.Services.AddScoped<IRepository<Product>, Repository<Product>>();
+            builder.Services.AddScoped<IRepository<Category>, Repository<Category>>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+
+
+
+          
 
             builder.Services.AddAuthentication("Bearer")
                 .AddJwtBearer(options =>

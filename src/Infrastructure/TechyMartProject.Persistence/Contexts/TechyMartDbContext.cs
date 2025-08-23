@@ -8,14 +8,16 @@ namespace TechyMartProject.Persistence.Contexts;
 
 public class TechyMartDbContext:IdentityDbContext<AppUser>
 {
-    public DbSet<AppUser> AppUsers { get; set; }
-    public DbSet<Product> Products { get; set; }
+   
     public TechyMartDbContext(DbContextOptions<TechyMartDbContext> option):base(option)
     {
 
 
        
     }
+    public DbSet<AppUser> AppUsers { get; set; }
+    public DbSet<Product> Products { get; set; }
+    public DbSet<Category> Categories { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

@@ -1112,23 +1112,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj",
       "projectName": "TechyMartProject.Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1144,8 +1144,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj"
+            "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj"
             }
           }
         }
@@ -1160,7 +1160,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1199,7 +1199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

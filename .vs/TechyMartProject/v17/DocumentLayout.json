@@ -1,42 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TechyMart\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TechyMart\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|c:\\users\\user\\desktop\\techymart\\src\\presentation\\techymartproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|solutionrelative:src\\presentation\\techymartproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|c:\\users\\user\\desktop\\techymart\\src\\infrastructure\\techymartproject.persistence\\contexts\\techymartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\contexts\\techymartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|c:\\users\\user\\desktop\\techymart\\src\\presentation\\techymartproject.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|solutionrelative:src\\presentation\\techymartproject.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|c:\\users\\user\\desktop\\techymart\\src\\presentation\\techymartproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|solutionrelative:src\\presentation\\techymartproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|c:\\users\\user\\desktop\\techymart\\src\\infrastructure\\techymartproject.persistence\\contexts\\techymartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\contexts\\techymartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|c:\\users\\user\\desktop\\techymart\\src\\presentation\\techymartproject.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|solutionrelative:src\\presentation\\techymartproject.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\interfaces\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|solutionrelative:src\\core\\techymartproject.domain\\interfaces\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\dtos\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\dtos\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\dtos\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\dtos\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|c:\\users\\user\\desktop\\techymart\\src\\infrastructure\\techymartproject.persistence\\confugrations\\categoryconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\confugrations\\categoryconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|solutionrelative:src\\core\\techymartproject.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|c:\\users\\user\\desktop\\techymart\\src\\infrastructure\\techymartproject.persistence\\confugrations\\productconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\confugrations\\productconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\dtos\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\dtos\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\dtos\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\dtos\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|c:\\users\\user\\desktop\\techymart\\src\\infrastructure\\techymartproject.persistence\\confugrations\\productconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\confugrations\\productconfugrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\dtos\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\dtos\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,14 +91,6 @@
       "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\repositories\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\interfaces\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|solutionrelative:src\\core\\techymartproject.domain\\interfaces\\repositories\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|solutionrelative:src\\core\\techymartproject.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31855B7D-C446-4352-A6E7-90FCF31EE740}|src\\Core\\TechyMartProject.Domain\\TechyMartProject.Domain.csproj|solutionrelative:src\\core\\techymartproject.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,16 +99,8 @@
       "RelativeMoniker": "D:0:0:{E4C3D43E-845C-4B7C-ACCA-1D9665132240}|src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj|solutionrelative:src\\infrastructure\\techymartproject.persistence\\migrations\\20250819113302_authhhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|c:\\users\\user\\desktop\\techymart\\src\\presentation\\techymartproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9F5713D-1FD0-4B2B-87EB-E90DB575C996}|src\\Presentation\\TechyMartProject.API\\TechyMartProject.API.csproj|solutionrelative:src\\presentation\\techymartproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\implementations\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\implementations\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|solutionrelative:src\\core\\techymartproject.application\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98FDB867-653F-4712-9924-A23B276B5C67}|src\\Core\\TechyMartProject.Application\\TechyMartProject.Application.csproj|c:\\users\\user\\desktop\\techymart\\src\\core\\techymartproject.application\\services\\services\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,332 +138,392 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwBMAAABLAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CategoryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\CategoryProfile.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Profiles\\CategoryProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\CategoryProfile.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Profiles\\CategoryProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:50:57.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:46:08.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:44:47.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:19:12.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:42:39.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:11:39.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TechyMartDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:18:51.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:05:48.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T10:04:56.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T10:04:27.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TechyMartDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Contexts\\TechyMartDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:18:51.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T21:46:08.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T13:27:32.888Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Program.cs",
               "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwBsAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T12:43:07.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:36:32.348Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\appsettings.json",
+              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T12:19:26.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:33:00.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductConfugrations.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
-              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T21:30:33.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAA9wAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:07:51.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:06:39.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:03:45.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:02:39.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T21:50:57.787Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\CreateCategoryDto.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\CategoryDTO\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T12:00:05.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:00:24.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250819113302_Authhhh.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
-              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CategoryConfugrations.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\CategoryConfugrations.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\CategoryConfugrations.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\CategoryConfugrations.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\CategoryConfugrations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:33:02.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:02:35.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowCwAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Interfaces\\Repositories\\Common\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:18:54.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:18:09.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T12:06:39.679Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\appsettings.json",
-              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-13T12:19:26.368Z",
-              "EditorCaption": ""
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T21:44:47.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:25:44.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T21:36:32.348Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\ProductDTO\\CreateProductDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:27:32.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T21:33:00.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwCQAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ProductConfugrations.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Confugrations\\ProductConfugrations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T21:36:23.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:47:04.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T21:30:33.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Repositories\\Common\\Repository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA9wAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:17:08.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T12:07:51.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250817203715_AuthCreate.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
-              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T20:37:16.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T12:00:05.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Profiles\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T21:42:39.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:03:45.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:02:39.163Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "20250819113302_Authhhh.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250819113302_Authhhh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:33:02.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Implementations\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowCwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:18:54.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IJwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:18:09.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\Services\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T13:25:44.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\Presentation\\TechyMartProject.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwCQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T21:36:23.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Application\\DTOs\\AuthDTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:47:04.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "src\\Core\\TechyMartProject.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:17:08.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250817203715_AuthCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
+              "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\Migrations\\20250817203715_AuthCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:37:16.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "TechyMartProject.Persistence.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TechyMart\\src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
               "RelativeToolTip": "src\\Infrastructure\\TechyMartProject.Persistence\\TechyMartProject.Persistence.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T12:18:28.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T12:18:28.78Z"
             }
           ]
         }

@@ -311,3 +311,5 @@ C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\obj\Debug\
 C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\obj\Debug\net8.0\TechyMartProject.API.genruntimeconfig.cache
 C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\obj\Debug\net8.0\ref\TechyMartProject.API.dll
 C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user\Desktop\TechyMart\src\Presentation\TechyMartProject.API\bin\Debug\net8.0\FluentValidation.dll
