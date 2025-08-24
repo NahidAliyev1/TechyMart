@@ -33,3 +33,5 @@ C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructu
 C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\refint\TechyMartProject.Infrastructure.dll
 C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\TechyMartProject.Infrastructure.pdb
 C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructure\obj\Debug\net8.0\ref\TechyMartProject.Infrastructure.dll
+C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Persistence.dll
+C:\Users\user\Desktop\TechyMart\src\Infrastructure\TechyMartProject.Infrastructure\bin\Debug\net8.0\TechyMartProject.Persistence.pdb

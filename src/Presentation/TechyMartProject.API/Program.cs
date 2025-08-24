@@ -1,18 +1,19 @@
-
+﻿
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
-using System;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Text;
+using TechyMartProject.Application.Profiles;
 using TechyMartProject.Application.Services.Implementations;
 using TechyMartProject.Application.Services.Services;
 using TechyMartProject.Domain.Entities;
-using TechyMartProject.Persistence.Contexts;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using TechyMartProject.Persistence.Repositories.Common;
 using TechyMartProject.Domain.Interfaces.Repositories.Common;
-using TechyMartProject.Application.Profiles;
-using AutoMapper;
-using Microsoft.Extensions.DependencyInjection;
+using TechyMartProject.Persistence.Contexts;
+using TechyMartProject.Persistence.Repositories.Common;
 
 namespace TechyMartProject.API
 {
@@ -28,12 +29,50 @@ namespace TechyMartProject.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            // 🔹 DbContext əlavə edirik
 
-            builder.Services.AddPersistenceServices(builder.Configuration);
+            string connectionString = builder.Configuration.GetConnectionString("Default");
+            builder.Services.AddDbContext<TechyMartDbContext>(options =>
+                options.UseSqlServer(connectionString)
+            );
 
-            builder.Services.AddApplicationServices(builder.Configuration);
-            builder.Services.AddDomainServices(builder.Configuration);
-            builder.Services.AddInfrastructureServices(builder.Configuration);
+            // 🔹 Identity konfiqurasiyası
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequiredLength = 8;
+                opt.Lockout.AllowedForNewUsers = true;
+                opt.Lockout.MaxFailedAccessAttempts = 5;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1);
+            })
+            .AddEntityFrameworkStores<TechyMartDbContext>()
+            .AddDefaultTokenProviders();
+
+           
+
+            var configuration = builder.Configuration;
+
+          
+            builder.Services.AddAuthentication("Bearer")
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = configuration["Jwt:Issuer"],
+                        ValidAudience = configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(configuration["Jwt:Key"])
+                        )
+                    };
+                });
 
 
 

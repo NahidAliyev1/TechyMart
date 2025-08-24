@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Core\TechyMartProject.Application\TechyMartProject.Application.csproj" />
     <ProjectReference Include="..\..\Core\TechyMartProject.Domain\TechyMartProject.Domain.csproj" />
     <ProjectReference Include="..\TechyMartProject.Persistence\TechyMartProject.Persistence.csproj" />
