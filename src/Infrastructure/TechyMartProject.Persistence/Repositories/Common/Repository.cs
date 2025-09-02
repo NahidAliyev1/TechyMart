@@ -80,6 +80,11 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
         return query;
     }
 
+    public async Task<int> SaveChangesAsync()
+    {
+        return await _techyMartDbContext.SaveChangesAsync();
+    }
+
     public T Update(T entity)
     {
         _dbSet.Update(entity);   // Entity update edilir

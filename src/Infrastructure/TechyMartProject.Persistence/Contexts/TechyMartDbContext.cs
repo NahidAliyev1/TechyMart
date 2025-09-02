@@ -21,6 +21,8 @@ public class TechyMartDbContext:IdentityDbContext<AppUser>
     public DbSet<CartItem> CartItems { get; set; }
     public DbSet<WishlistItem> WishlistItems { get; set; }
     public DbSet<Whislist> Wishlists { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OtpCode> OtpCodes { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

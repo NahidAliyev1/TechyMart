@@ -1,7 +1,10 @@
 ﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TechyMartProject.Application.DTOs.AuthDTO;
+using TechyMartProject.Application.DTOs.OtpCode;
+using TechyMartProject.Application.Services.Implementations;
 using TechyMartProject.Application.Services.Services;
 
 namespace TechyMartProject.API.Controllers
@@ -52,6 +55,17 @@ namespace TechyMartProject.API.Controllers
 
                 return BadRequest($"Login failed: {ex.Message}");
             }
+        }
+
+        [HttpPost("verify-otp")]
+        [AllowAnonymous]
+        public async Task<IActionResult> VerifyOtp([FromBody] VerifyOtpDto dto)
+        {
+            bool isValid = await _authServices.VerifyOtpAsync(dto.Email, dto.Code, dto.Type);
+            if (!isValid)
+                return BadRequest("Kod etibarsızdır və ya vaxtı keçib.");
+
+            return Ok("Kod təsdiqləndi.");
         }
     }
 }

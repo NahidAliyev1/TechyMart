@@ -270,6 +270,63 @@ namespace TechyMartProject.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("TechyMartProject.Domain.Entities.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CustomerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OrderNo")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderNo")
+                        .IsUnique();
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("TechyMartProject.Domain.Entities.OrderItem", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("ProductId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItem");
+                });
+
             modelBuilder.Entity("TechyMartProject.Domain.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -436,6 +493,53 @@ namespace TechyMartProject.Persistence.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("TechyMartProject.Domain.Entities.Order", b =>
+                {
+                    b.OwnsOne("TechyMartProject.Domain.Entities.Address", "ShippingAddress", b1 =>
+                        {
+                            b1.Property<int>("OrderId")
+                                .HasColumnType("int");
+
+                            b1.Property<string>("City")
+                                .IsRequired()
+                                .HasMaxLength(50)
+                                .HasColumnType("nvarchar(50)");
+
+                            b1.Property<string>("Country")
+                                .IsRequired()
+                                .HasMaxLength(50)
+                                .HasColumnType("nvarchar(50)");
+
+                            b1.Property<string>("Street")
+                                .IsRequired()
+                                .HasMaxLength(200)
+                                .HasColumnType("nvarchar(200)");
+
+                            b1.Property<string>("ZipCode")
+                                .IsRequired()
+                                .HasMaxLength(20)
+                                .HasColumnType("nvarchar(20)");
+
+                            b1.HasKey("OrderId");
+
+                            b1.ToTable("Orders");
+
+                            b1.WithOwner()
+                                .HasForeignKey("OrderId");
+                        });
+
+                    b.Navigation("ShippingAddress")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TechyMartProject.Domain.Entities.OrderItem", b =>
+                {
+                    b.HasOne("TechyMartProject.Domain.Entities.Order", null)
+                        .WithMany("Items")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("TechyMartProject.Domain.Entities.Product", b =>
                 {
                     b.HasOne("TechyMartProject.Domain.Entities.Category", "Category")
@@ -480,6 +584,11 @@ namespace TechyMartProject.Persistence.Migrations
             modelBuilder.Entity("TechyMartProject.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("TechyMartProject.Domain.Entities.Order", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("TechyMartProject.Domain.Entities.Whislist", b =>

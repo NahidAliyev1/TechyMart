@@ -1,24 +1,17 @@
 ﻿
 
 using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TechyMartProject.Application;
 public static class ApplicationServiceRegistration
 {
 
-    public static IServiceCollection AddApplicationServices(this IServiceCollection services)
+    public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-       
+    
 
 
-        services.AddScoped<IAuthService, AuthService>();
-        services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
-        services.AddScoped<IProductService, ProductService>();
-     
-        services.AddScoped<ICategoryService, CategoryService>();
-       
-       
         return services;
     }
 }

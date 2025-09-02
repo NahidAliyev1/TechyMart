@@ -1,19 +1,23 @@
 ﻿
 
+using TechyMartProject.Application.Services.Services;
+using TechyMartProject.Domain.Enums;
+
 namespace TechyMartProject.Application.Services.Implementations
 {
     public class AuthService : IAuthService
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
+        private readonly IOtpService _otpService;
 
-      
 
-        public AuthService(UserManager<AppUser> userManager, IJwtTokenGenerator jwtTokenGenerator)
+
+        public AuthService(UserManager<AppUser> userManager, IJwtTokenGenerator jwtTokenGenerator, IOtpService otpService)
         {
             _userManager = userManager;
             _jwtTokenGenerator = jwtTokenGenerator;
-
+            _otpService = otpService;
         }
 
 
@@ -53,6 +57,11 @@ namespace TechyMartProject.Application.Services.Implementations
                 throw new Exception($"User registration failed: {errors}");
             }
             return Task.FromResult("User registered successfully");
+        }
+
+        public async Task<bool> VerifyOtpAsync(string email, string code, OtpType type)
+        {
+            return await _otpService.VerifyOtpAsync(email, code, type);
         }
     }
 }

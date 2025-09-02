@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechyMartProject.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7653c87a1dbfae053e9a83ceba70480704549b1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd7a514c400fba5131ebfd6bf3a2fa8c30cec3f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechyMartProject.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechyMartProject.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

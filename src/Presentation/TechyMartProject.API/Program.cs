@@ -1,18 +1,22 @@
-﻿
-using AutoMapper;
+﻿using AutoMapper;
+using FluentValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Reflection;
 using System.Text;
 using TechyMartProject.Application.Profiles;
 using TechyMartProject.Application.Services.Implementations;
 using TechyMartProject.Application.Services.Services;
 using TechyMartProject.Domain.Entities;
+using TechyMartProject.Domain.Interfaces.Repositories;
 using TechyMartProject.Domain.Interfaces.Repositories.Common;
 using TechyMartProject.Persistence.Contexts;
+using TechyMartProject.Persistence.Repositories;
 using TechyMartProject.Persistence.Repositories.Common;
 
 namespace TechyMartProject.API
@@ -28,64 +32,9 @@ namespace TechyMartProject.API
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-            // 🔹 DbContext əlavə edirik
-
-            string connectionString = builder.Configuration.GetConnectionString("Default");
-            builder.Services.AddDbContext<TechyMartDbContext>(options =>
-                options.UseSqlServer(connectionString)
-            );
-
-            // 🔹 Identity konfiqurasiyası
-            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
-            {
-                opt.User.RequireUniqueEmail = true;
-                opt.Password.RequireUppercase = false;
-                opt.Password.RequireLowercase = false;
-                opt.Password.RequireNonAlphanumeric = false;
-                opt.Password.RequireDigit = false;
-                opt.Password.RequiredLength = 8;
-                opt.Lockout.AllowedForNewUsers = true;
-                opt.Lockout.MaxFailedAccessAttempts = 5;
-                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1);
-            })
-            .AddEntityFrameworkStores<TechyMartDbContext>()
-            .AddDefaultTokenProviders();
-
-           
-
-            var configuration = builder.Configuration;
-
-          
-            builder.Services.AddAuthentication("Bearer")
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
-                        ValidIssuer = configuration["Jwt:Issuer"],
-                        ValidAudience = configuration["Jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(
-                            Encoding.UTF8.GetBytes(configuration["Jwt:Key"])
-                        )
-                    };
-                });
-
-
-
-
-
-
-
-
-
-
             builder.Services.AddSwaggerGen(c =>
             {
-           
+
                 c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
                 {
                     Name = "Authorization",
@@ -113,27 +62,107 @@ namespace TechyMartProject.API
             });
 
 
-      
+            builder.Services.AddHttpContextAccessor();
+            // 🔹 DbContext əlavə edirik
+            builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
-          
-            
 
-            
+
+
+
+            //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+            builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICartItemService, CartItemService>();
+            builder.Services.AddScoped<IWishlistService, WishlistService>();
+            builder.Services.AddScoped<IOtpService, OtpService>();
+            builder.Services.AddScoped<IOtpRepository, OtpRepository>();
+            builder.Services.AddScoped<IMailService, MailService>();
+
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
+            builder.Services.AddScoped<ICartItemRepository, CartItemRepository>();
+            builder.Services.AddScoped<IWishlistRepository, WishlistRepository>();
+            builder.Services.AddScoped(typeof(IRepository<Product>), typeof(Repository<Product>));
+            builder.Services.AddScoped(typeof(IRepository<Category>), typeof(Repository<Category>));
+            string connectionString = builder.Configuration.GetConnectionString("Default");
+            builder.Services.AddDbContext<TechyMartDbContext>(options =>
+                options.UseSqlServer(connectionString)
+            );
+
+            // 🔹 Identity konfiqurasiyası
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequiredLength = 8;
+                opt.Lockout.AllowedForNewUsers = true;
+                opt.Lockout.MaxFailedAccessAttempts = 5;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1);
+            })
+            .AddEntityFrameworkStores<TechyMartDbContext>()
+            .AddDefaultTokenProviders();
+
+
+
+            var configuration = builder.Configuration;
+
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = configuration["Jwt:Issuer"],
+        ValidAudience = configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(configuration["Jwt:Key"])
+        )
+    };
+});
+
+            builder.Services.AddAuthorization();
+
+
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Səhvlər burada idi. Middleware-lərin düzgün sıralaması aşağıdakı kimi olmalıdır.
+            app.UseHttpsRedirection();
+
+            // Öncə marşrutlaşdırma
+            app.UseRouting();
+
+            // Sonra təhlükəsizlik
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            // Konfiqurasiya
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-
+            // Axırda kontrolerləri map etmə
             app.MapControllers();
 
             app.Run();
