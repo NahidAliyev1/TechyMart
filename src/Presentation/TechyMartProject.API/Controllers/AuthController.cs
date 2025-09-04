@@ -21,6 +21,7 @@ namespace TechyMartProject.API.Controllers
         }
 
         [HttpPost("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> RegisterAsync([FromBody] RegisterDto dto)
         {
             if (dto == null)
@@ -38,6 +39,7 @@ namespace TechyMartProject.API.Controllers
             }
         }
         [HttpPost("Login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Loginasync(LoginDto dto)
         {
             if (dto is null)
@@ -55,6 +57,23 @@ namespace TechyMartProject.API.Controllers
 
                 return BadRequest($"Login failed: {ex.Message}");
             }
+        }
+
+        [HttpPost("Forgot-Password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDto dto)
+        {
+           var result=await _authServices.ForgotPasswordAsync(dto);
+            return Ok(result);
+        }
+
+
+        [HttpPost("Reset-Password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPasswo([FromBody] ResetPasswordDto dto)
+        {
+            var result = await _authServices.ResetPasswordAsync(dto);
+            return Ok(result);
         }
 
         [HttpPost("verify-otp")]

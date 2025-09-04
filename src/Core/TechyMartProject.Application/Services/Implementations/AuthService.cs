@@ -20,10 +20,26 @@ namespace TechyMartProject.Application.Services.Implementations
             _otpService = otpService;
         }
 
+        public async Task<object> ForgotPasswordAsync(ForgotPasswordDto dto)
+        {
+            var appUser = await _userManager.FindByEmailAsync(dto.Email);
+            if (appUser == null)
+            {
+                throw new Exception("User not found");
+            }
+            await _otpService.GenerateAndSendOtpAsync(dto.Email,OtpType.ForgotPassword);
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(appUser);
+
+            return new
+            {
+                Message = "Şifrə sıfırlama üçün kod emailə göndərildi.",
+                Token = token
+            };
 
 
+        }
 
-       
         public async Task<string> Loginasync(LoginDto dto)
         {
          AppUser? appUser = _userManager.FindByEmailAsync(dto.Email).Result;
@@ -57,6 +73,21 @@ namespace TechyMartProject.Application.Services.Implementations
                 throw new Exception($"User registration failed: {errors}");
             }
             return Task.FromResult("User registered successfully");
+        }
+
+        public async Task<string> ResetPasswordAsync(ResetPasswordDto dto)
+        {
+            AppUser user=await _userManager.FindByEmailAsync(dto.Email);
+            if (user is null)
+            {
+                throw new Exception("User not found");
+            }
+            IdentityResult result = await _userManager.ResetPasswordAsync(user,dto.Token,dto.NewPassword);
+            if (!result.Succeeded)
+            {
+                throw new Exception("Sifre yenilenmedi");
+            }
+            return "Sifre yenilendi";
         }
 
         public async Task<bool> VerifyOtpAsync(string email, string code, OtpType type)

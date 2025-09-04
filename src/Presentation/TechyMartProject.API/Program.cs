@@ -166,6 +166,50 @@ namespace TechyMartProject.API
             app.MapControllers();
 
             app.Run();
+
+
+
+
+            static async Task SeedAdminAsync(IServiceProvider serviceProvider)
+            {
+                var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                var userManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
+
+                // --- 1️⃣ Admin rolunu yarat ---
+                if (!await roleManager.RoleExistsAsync("Admin"))
+                {
+                    await roleManager.CreateAsync(new IdentityRole("Admin"));
+                }
+
+                // --- 2️⃣ Admin istifadəçini yoxla ---
+                string adminEmail = "nnahidd770@gmail.com";
+                string adminPassword = "nahid_123!";
+
+                var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+                // --- 3️⃣ Əgər yoxdursa yarat ---
+                if (adminUser == null)
+                {
+                    var user = new AppUser
+                    {
+                        UserName = "admin",
+                        Email = adminEmail,
+                        EmailConfirmed = true,
+                    
+                        PhoneNumber = "+994708279847",
+                        
+                    };
+
+                    var result = await userManager.CreateAsync(user, adminPassword);
+
+                    // --- 4️⃣ Admin rolunu əlavə et ---
+                    if (result.Succeeded)
+                    {
+                        await userManager.AddToRoleAsync(user, "Admin");
+                    }
+                }
+            }
+
         }
     }
 }
