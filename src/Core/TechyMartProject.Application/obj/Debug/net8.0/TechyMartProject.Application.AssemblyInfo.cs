@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechyMartProject.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c9676c9e5a0627a49211704c81b77d2c474f0aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da4272ebbbc2aee40ed1a3fc01363cef6f636e0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechyMartProject.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechyMartProject.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

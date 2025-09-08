@@ -1,4 +1,6 @@
-﻿using TechyMartProject.Application.DTOs.PaymentDTO;
+﻿using RestSharp.Extensions;
+using Stripe;
+using TechyMartProject.Application.DTOs.PaymentDTO;
 using TechyMartProject.Domain.Interfaces.Repositories;
 
 namespace TechyMartProject.Application.Services.Implementations;
@@ -46,7 +48,7 @@ public class PaymentService : IPaymentService
         return payment != null ? _mapper.Map<PaymentDto>(payment) : null;
     }
 
-    public async Task UpdatePaymentStatusAsync(string intentId, string status)
+    public async Task UpdatePaymentStatusAsync(string intentId, Statu status)
     {
 
         var result=await _paymentRepository.GetByPaymentIntentIdAsync(intentId);
